@@ -12,6 +12,21 @@
 	text-transform: capitalize;
 	transition: .2s linear;
 }
+section{
+	padding: 2rem 9%;
+}
+.button{
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 5rem;
+	background: #333;
+	color: #fff;
+	padding: .9rem 3.5rem;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: var(--pink);
+}
 
 header{
 	top: 0; left: 0; right: 0;
@@ -36,6 +51,25 @@ header .logo span{
 .home{
 	display: flex;
 	align-items: center;
-	min-height: 100vh;
-	background: lightpink;
+	min-height: 88vh;
+	background: rgb(242, 206, 211);
+}
+.home .content{
+	max-width: 50rem;
+}
+.home .content h3{
+	font-size: 6rem;
+	color: #333;
+}
+.home .content span{
+	font-size: 3.5rem;
+	color: var(--pink);
+	padding: 1rem 0;
+	line-height: 1.5;
+}
+.home .content p{
+	font-size: 1.5rem;
+	color: #999;
+	padding: 1rem 0;
+	line-height: 1.5;
 }
